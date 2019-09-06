@@ -32,6 +32,7 @@ class OggettoHTML():
         risposta= self.struttura_tag.format(**ogg_conversione)
         risposta= risposta.replace('class="" ',"")
         risposta= risposta.replace('id="" ',"")
+        risposta= risposta.replace('for="" ',"")
         risposta= risposta.replace('src="" ',"")
         
         ris_figli = ""
