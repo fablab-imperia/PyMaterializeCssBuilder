@@ -14,7 +14,7 @@ class InputType(Enum):
     TEXT = "text"
     SUBMIT = "submit"
     CHECKBOX = "checkbox"
-    DATE = "date"
+    #DATE = "date"
     EMAIL = "email"
 
 class MethodHttp(Enum):

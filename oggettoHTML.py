@@ -20,7 +20,9 @@ class OggettoHTML():
             }
             )
         
-        self.struttura_tag='<{nome_tag} id="{id}" class="{classi}" src="{src}" {aggiuntivi}>%s</{nome_tag}>'
+        self.struttura_tag="""<{nome_tag} id="{id}" class="{classi}" src="{src}" {aggiuntivi}>
+        %s
+        </{nome_tag}>"""
         self.ogg_figli=[]#Devono ereditare da OggettoHTML
     
     def to_html(self) -> str:

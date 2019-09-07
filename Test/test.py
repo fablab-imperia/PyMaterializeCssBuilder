@@ -5,7 +5,8 @@ Created on Fri Sep  6 13:53:17 2019
 
 @author: rosto
 """
-
+import sys
+sys.path.append("..")
 import form
 import builder
 import row
@@ -37,3 +38,4 @@ b = builder.Builder(cont)
 b.imposta_titolo("Login gestore Fablab Imperia")
 
 print(b)
+
